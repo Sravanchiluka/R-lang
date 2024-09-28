@@ -1,0 +1,27 @@
+# to installing packages in R lang, the command is
+  install.packages("ggplot2")
+
+#to remove package from R , the command is 
+  remove.packages("ggplot2")
+
+#to import or to load the RScript file , the command is
+  library(ggplot2)
+
+#to unload or to detach the package from directory , the command is 
+  detach("package:ggplot2",unload=TRUE)
+
+#to know more about the command , we use
+  ?command 
+  ex:?print()
+
+->in Rstudio,we have certain built in datasets for analysis purposes which helps to get insights of the data.
+
+IN R , the commands that we learned today are 
+1. >mtcars -- it is a dataset for analysing the data
+2. >summary(mtcars)
+3. >str(mtcars)
+4. >quantile(mtcars$mpg)
+5. >cars -- another dataset for data analysis
+6. >class(cars)
+7. >dim(cars)
+8. >quantile(cars$speed)
