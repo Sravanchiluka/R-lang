@@ -1,0 +1,9 @@
+#FINDING THE SUBSET OF DATASET BY USING SUBSET(),AGGREGATE() FUNCTION ON IRIS DATASET
+
+#The aggregate() function in R can be used to calculate summary statistics for a dataset.
+#CODE
+aggregate(.~Species,data=iris,mean)
+
+#Subsetting in R allows you to extract specific elements from vectors, matrices, or data frames based on conditions. This can be done using square brackets or the subset() function.
+#CODE
+subset(iris,iris$Sepal.Length==5.0)
